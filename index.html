@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=" author" content="Fabiana Trindade">
+    <meta name="description" content="= Trabalho de programação web - Falculdade Uninter">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/estilo.css"> <!-- referenciando a folha de estilo -->
+
+    <title> CV Fabiana Trindade </title>
+</head>
+<body>
+  <header class="header"> <!-- classe para estilizar o cabeçalho no CSS-->
+
+
+    <!-- para estilizar em modelo de landing page adicionei icones para redes sociais, não está com link  -->
+    <a href="#" class="header__link">
+        <img class="icone" src="assets/icones/linkedin.svg">
+    </a>
+
+    <a href="#" class="header__link">
+        <img class="icone" src="assets/icones/instagram.svg">
+    </a>
+
+    <a href="#" class="header__link">
+        <img class="icone" src="assets/icones/twitter.svg">
+
+    </a>
+
+  </header>
+  
+  <!-- começando pelo main como divisão princial com foto, nome e breve descrição, com classe e div para estilização na folha-->
+  <main class="main"> 
+    <div class="perfil">
+      <img class="perfil__foto" src="assets/imagens/foto perfil_fabiana.jpg.jpg"> <!-- estilizei a foto dentro da div-->
+        <h1 class="perfil__nome"> Fabiana Trindade</h1>
+        <p class="perfil__descricao"> <br> Seja bem vindo(a) ao meu site, aqui você encontrará meu site em modelo de currículo.
+          <br><br>
+          Deixe seu contato
+          <br>
+          <!-- Formulário para contato com os inputs -->
+         <form> 
+          <p> Nome: <input type="text" name="nome" id="nome"></p>
+          <p> E-mail: <input type="email" name="e-mail" id="e-mail">
+          <p> Mensagem: <input type="text" name="nome" id="nome"></p>
+          <p> <input type="submit" value="Enviar"></p> 
+          </p>
+        </form> 
+
+        </p>
+
+  <!-- Adicionei uma div e em seguida dividi as categorias em seções-->
+    </div>
+
+    <section class="section">
+      
+
+      <!-- inserindo artigos para deixar mais estilizado com sombra-->
+
+      <article class="curso"> 
+        <a href="sobreMim.html" class= "curso__titulo" > Sobre mim  <!-- link que leva a pagina de sobre mim-->
+        </article>
+
+
+        <article class="curso"> 
+          <a href="experiencia.html" class= "curso__titulo" > Experiência  Profissional <!-- link que leva a pagina de experiencia-->
+          </article>
+
+
+          <article class="curso"> 
+            <a href="educação.html" class= "curso__titulo" > Educação <!-- link que leva a pagina de educação-->
+            
+        </article>
+
+        <article class="curso"> 
+          <a href="habilidades.html" class= "curso__titulo" > Competências e Habilidades <!-- link que leva a pagina de habilidades-->
+          </article> 
+
+      </section>
+  </main>
+
+  <!-- aqui um rodapé usando o footer e um icone de coração estilizado no css-->
+  <footer class="footer"> 
+    <span class="footer__texto">
+      Feito com 
+      <img class="icone icone--texto" src="assets/icones/coracao.svg">
+      por Fabiana Trindade
+            </span>
+        </footer>
+    </body>
+</html>
